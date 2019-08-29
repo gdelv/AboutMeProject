@@ -1,0 +1,100 @@
+body {
+  background: black;
+  color: white;
+  margin:0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  height:200px;
+  background: url("https://www.worldatlas.com/r/w728-h425-c728x425/upload/2a/50/49/pe-flag-min.jpg");
+  background-position: center;
+  background-size:contain;
+  color:black;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: green;
+}
+
+h1 {
+  color:white;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  font-size:30px;
+  font-weight: bold;
+
+}
+
+h2 {
+  color:white;
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: -5px;
+
+}
+
+div {
+  height: 600px;
+  /* width: 390px; */
+  background-size: cover;
+  position: relative;
+  background:black;
+  margin:0 0 70px 0;
+  border-radius: 15px;
+}
+
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  width: 370px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.earlylife {
+  background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/19258_1370831269979_3808865_n.jpg?_nc_cat=107&_nc_oc=AQkGzCrOxXiFhORvIry_KyZV0EHr4uVlW3NMfz1Dy1-04pinVcdLDey8Kx98mL2k7Rw&_nc_ht=scontent-ort2-2.xx&oh=9301c5650c1e0af11454f4ca81518953&oe=5E061FE5);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personallife {
+  background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/64682605_1137336996473119_7686775339850137600_n.jpg?_nc_cat=111&_nc_oc=AQmVK6xlR1FV6vcMrn_3qkxn51MUCxlzI487ptiu1fz9T9ZYImSPkDkboOwkFRANQQk&_nc_ht=scontent-ort2-2.xx&oh=4cc984359b25df427819f0deb0664bf2&oe=5DD59E59);
+  background-repeat: space;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
